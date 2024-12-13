@@ -1,0 +1,124 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+.header1 {
+    background-color: rgb(226, 178, 21);
+    color: white;
+    height: 34px;
+    text-align: center;
+
+}
+
+.logo {
+    height: 40px;
+    width: 150px;
+    background-image: url(logo.jfif);
+    background-size: cover;
+    margin-left: 70px;
+}
+
+.searchbar {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    height: 35px;
+    border-width: .7px;
+    padding-left: 20px;
+    margin-left: 250px;
+
+}
+
+.searchbarbutton {
+    height: 36px;
+    width: 50px;
+    margin-right: 150px;
+    border: 0;
+    background-color: #dca23f;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+
+}
+
+.header2 {
+    display: flex;
+    margin-top: 8px;
+
+}
+
+.profile {
+    margin-top: 10px;
+    height: 36px;
+}
+
+.line {
+    height: 0.2px;
+    width: 1150px;
+    align-self: center;
+    background-color: rgb(100, 98, 98);
+    margin-left: 70px;
+}
+
+.producthead {
+    margin-top: 10px;
+    text-align: center;
+    font-size: medium;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.producthead :hover {
+
+    background-color: coral;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown button styling */
+.dropbtn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+/* The container for dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Dropdown items */
+.dropdown-content label {
+    color: black;
+    padding: 10px;
+    display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover {
+    display: block;
+}
+
+/* Down arrow icon */
+.dropbtn::after {
+    content: " \25BC";
+    /* Down arrow symbol */
+}
